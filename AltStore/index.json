@@ -1,0 +1,14 @@
+{
+    "name": "Parker's Altstore Repo",
+    "identifier": "parkeriscoo.xyz",
+    "sourceURL": "https://www.parkeriscoo.xyz/altstore",
+    "apps": [
+        {
+            "name": "UTM",
+            "subtitle": "UTM",
+            "bundleIdentifier": "com.parkeriscoo.utm",
+            "developerName": "AppValley",
+            "version": "1.2",
+            "versionDate": "2020-07-04T18:13:02+00:00",
+            "versionDescription": "",
+            "downloadURL": "https:\/\/cdn.app-valley.vip\/companion\/1539.com.lootvalley.loot.ipa?
