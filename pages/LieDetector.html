@@ -15,29 +15,10 @@ body {
   <body>
     
     <button type="button" onclick="alert('The Glove Is Connected! You May Now Begin')">Connect Bluetooth Gloves</button>
+    <button type="button" onclick="alert('Your question is locked in!')">Lock in</button>
+    <button type="button" onclick="alert('NOT A LIE')"></button>
+    <button type="button" onclick="alert('LIE')"></button>
     
-     <body>
-    <button id="button">
-      Are You Lying?
-    </button>
-    <div id="output"></div>
-
-
-    <script>
-      const button = document.getElementById('button');
-      const stringsArray = [Yes, You Are Lying', 'No, You Are Not Lying'];
-      let index = 0;
-
-      button.addEventListener('click', (event) => {
-        if (index > 3) {
-          index = 0;
-        }
-        document.getElementById("output").innerHTML += stringsArray[index];
-        index++
-      })
-
-    </script>
-  </body>
 
 </html>
 
