@@ -13,16 +13,19 @@ body {
 </style>
 </head>
   <body>
+    
+    <button type="button" onclick="alert('The Glove Is Connected! You May Now Begin')">Connect Gloves</button>
+    
+     <body>
     <button id="button">
-      Check If You're Lying
+      Are You Lying?
     </button>
     <div id="output"></div>
 
- <button type="button" onclick="alert('The Glove Is Connected! You May Now Begin')">Connect Gloves</button>
-    
+
     <script>
       const button = document.getElementById('button');
-      const stringsArray = ['You Are Lying', 'You Are Not Lying'];
+      const stringsArray = [Yes, You Are Lying', 'No, You Are Not Lying'];
       let index = 0;
 
       button.addEventListener('click', (event) => {
@@ -32,6 +35,12 @@ body {
         document.getElementById("output").innerHTML += stringsArray[index];
         index++
       })
+
+    </script>
+  </body>
+
+</html>
+
 
     </script>
   </body>
